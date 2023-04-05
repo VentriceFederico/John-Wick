@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
+:root {
+  font-family: "Anuphan", sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 10rem 25rem 0 25rem;
+  background: url(../img/backgraud-img.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.8rem;
+}
+.header-left-txt {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.header-left-icon {
+  height: 4.5rem;
+  border: solid 1px rgba(241, 231, 225, 0.5);
+  border-radius: 50%;
+  height: 3.7rem;
+  width: 3.7rem;
+  transition: all 0.2s ease-in-out;
+}
+.header-left-icon:hover {
+  border: solid 1px rgb(241, 231, 225);
+}
+.header-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-center-title {
+  color: white;
+  font-size: 4rem;
+  margin: 0;
+  font-weight: bold;
+  letter-spacing: 2rem;
+}
+.header-rigth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.header-rigth-icon {
+  height: 4.5rem;
+  border: solid 1px rgba(241, 231, 225, 0.5);
+  border-radius: 50%;
+  padding: 0.5rem;
+  height: 3.7rem;
+  width: 3.7rem;
+  transition: all 0.2s ease-in-out;
+}
+.header-rigth-icon:hover {
+  border: solid 1px rgb(241, 231, 225);
+}
+
+.main {
+  margin: 15rem 0rem 0 0rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+.main-rigth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-rigth-title {
+  max-width: 100%;
+}
+.main-rigth-subtitle {
+  font-size: 1.5rem;
+  text-align: center;
+  color: rgb(241, 231, 225);
+}
+.main-rigth-txt {
+  color: white;
+  font-size: 1.2rem;
+}
+.main-left-contain {
+  position: relative;
+}
+.main-left-contain-img {
+  max-width: 100%;
+  position: static;
+  transition: all 0.2s ease-in-out;
+}
+.main-left-contain-img:hover {
+  border: solid 3px white;
+}
+.main-left-contain-info {
+  margin: 0 0 0 3rem;
+  position: absolute;
+  bottom: 2.5rem;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.main-left-contain-info-title {
+  color: rgba(241, 231, 225, 0.9);
+  font-size: 4.2rem;
+  letter-spacing: 0.3rem;
+}
+.main-left-contain-info-txt {
+  color: rgba(241, 231, 225, 0.9);
+  letter-spacing: 0.1rem;
+  font-size: 1.4rem;
+}
+
+.btn {
+  text-decoration: none;
+  color: rgba(241, 231, 225, 0.9);
+  font-size: 1.2rem;
+  border: solid 1px rgba(241, 231, 225, 0.5);
+  padding: 0.7rem 2rem;
+  border-radius: 15px;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  border: solid 1px rgb(241, 231, 225);
+}/*# sourceMappingURL=styles.css.map */
